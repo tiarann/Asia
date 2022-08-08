@@ -1,0 +1,290 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.42;
+  background: #001821;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  height: 123px;
+  position: relative;
+  padding-top: 29px;
+  margin-bottom: 167px;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  vertical-align: middle;
+   /* margin-right: 79px; */
+}
+
+.menu {
+  top: 42px;
+  left: 150px;
+  display: inline-block;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  color: inherit;
+  font-size: 14px;
+  margin-right: 54px;
+}
+
+.menu__link:hover {
+  color: #DA0100;
+}
+
+.contacts {
+  text-align: right;
+  position: absolute;
+  top: 26px;
+  right: 0;
+  font-size: 13px;
+}
+.contacts__phone {
+  color: inherit;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.hello__title {
+  width: 511px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+.hello__subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.button {
+  background: #F5170E;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #DA0100;
+}
+
+.offers {
+  margin-top: 246px;
+}
+
+.title {
+  margin-bottom: 51px;
+
+}
+.title--fire:before {
+  content: "";
+}
+.title--fire:after {
+  width: 21px;
+  height: 28px;
+  display: inline-block;
+  background-image: url(../imgs/flame.png);
+  content: "";
+}
+
+.offers__item {
+  min-height: 390px;
+  width: 362px;
+  background: #FFFFFF;
+  border-radius: 5px 5px 5px 5px;
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.offers__item:last-child {
+  margin-right: 0;
+}
+.offers__img {
+  min-height: 144px;
+  margin-bottom: 33px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.offers__content {
+  padding: 0px 16px 26px 22px;
+}
+
+.offers__title {
+  color: #000000;
+  margin-bottom: 33px;
+}
+.offers__feature {
+  width: 324px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 28px;
+}
+.offers__features:last-child {
+  margin-right: 0;
+}
+
+.offers__feature-icon {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+.offers__feature-text {
+  display: inline-block;
+  color: #666666;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.offers__text {
+  font-size: 14px;
+  color: #303030;
+  margin-bottom: 25px;
+}
+.btn--offer {
+  background: #F5170E;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  padding: 18px 30px;
+  font-weight: bold;
+}
+
+.btn--offer--light {
+  background: #FFFFFF;
+  display: inline-block;
+  font-size: 14px;
+  border-color: #F5170E;
+  border: 1px solid;
+  border-radius: 35px;
+  text-transform: uppercase;
+  padding: 18px 30px;
+  font-weight: bold;
+  color: #F5170E;
+}
+.news {
+  margin-top: 127px;
+}
+
+.news__item {
+  min-height: 394px;
+  width: 557px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.news__img {
+  border-radius: 5px;
+  min-height: 394px;
+  margin-bottom: 33px;
+
+}
+
+.paginator {
+  text-align: center;
+}
+
+.paginator__display, .paginator__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+.paginator__display {
+  margin-right: 25px;
+}
+
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer__contacts {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
