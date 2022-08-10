@@ -207,6 +207,7 @@ body {
   height: 144px;
   max-width: 360px;
   border-radius: 5px 5px 0px 0px;
+  display: block;
 }
 
 .offers__img {
@@ -217,7 +218,6 @@ body {
 
 .offers__content {
   padding: 25px 22px 25px;
-  margin-bottom: 25px;
 }
 
 .offers__title {
@@ -281,7 +281,7 @@ body {
 .news {
   position: relative;
   z-index: 1;
-  margin-top: 135px;
+  margin-top: 125px;
 }
 
 .news__list {
@@ -422,8 +422,12 @@ background: url(../imgs/gates.png) center center / cover no-repeat;
   margin: 0 auto;
   position: relative;
   font-family: 'Open Sans', sans-serif;
-  border-top: 1px solid #FFFFFF; 
+  border-top: 1px solid rgba(255, 255, 255, .1); 
   padding-top: 18px; 
+}
+
+.footer__content {
+  position: relative;
 }
 
 .social {
