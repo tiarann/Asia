@@ -415,7 +415,8 @@ background: url(../imgs/gates.png) center center / cover no-repeat;
   padding: 0px 45px 0px 0px;
 }
  
-.footer {
+
+.footer__container {
   width: 1140px;
   height: 146px;
   margin: 0 auto;
@@ -423,10 +424,6 @@ background: url(../imgs/gates.png) center center / cover no-repeat;
   font-family: 'Open Sans', sans-serif;
   border-top: 1px solid #FFFFFF; 
   padding-top: 18px; 
-}
-
-.footer__container {
-  padding-top: 20px;
 }
 
 .social {
