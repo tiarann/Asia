@@ -1,18 +1,18 @@
-@import url(сss/layout/normalize.css);
-@import url(сss/layout/base.css);
-@import url(сss/blocks/header.css);
-@import url(сss/blocks/logo.css);
-@import url(сss/blocks/menu.css);
-@import url(сss/blocks/contacts.css);
-@import url(сss/blocks/hello.css);
-@import url(сss/blocks/button.css);
-@import url(сss/blocks/offers.css);
-@import url(сss/blocks/title.css);
-@import url(сss/blocks/news.css);
-@import url(сss/blocks/paginator.css);
-@import url(сss/blocks/about.css);
-@import url(сss/blocks/footer.css);
-@import url(сss/blocks/social.css);
+@import url(/css/layout/normalize.css);
+@import url(/css/layout/base.css);
+@import url(/css/blocks/header.css);
+@import url(/css/blocks/logo.css);
+@import url(/css/blocks/menu.css);
+@import url(/css/blocks/contacts.css);
+@import url(/css/blocks/hello.css);
+@import url(/css/blocks/button.css);
+@import url(/css/blocks/offers.css);
+@import url(/css/blocks/title.css);
+@import url(/css/blocks/news.css);
+@import url(/css/blocks/paginator.css);
+@import url(/css/blocks/about.css);
+@import url(/css/blocks/footer.css);
+@import url(/css/blocks/social.css);
 
 *,
 ::before,
