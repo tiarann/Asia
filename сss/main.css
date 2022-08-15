@@ -80,7 +80,7 @@ html, body {
 }
 
 .main-page-wrapper {
-  background: url(../../imgs/hero.png) center top no-repeat, url(../../imgs/2.jpg) right bottom 165px no-repeat;
+  background: url(../imgs/hero.png) center top no-repeat, url(../imgs/2.jpg) right bottom 165px no-repeat;
 
 }
 
@@ -295,7 +295,7 @@ body {
   width: 21px;
   height: 28px;
   display: inline-block;
-  background-image: url(../../imgs/flame.png);
+  background-image: url(../imgs/flame.png);
   margin-left: 6px;
   content: "";
 }
