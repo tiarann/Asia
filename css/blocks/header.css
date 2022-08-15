@@ -1,0 +1,11 @@
+.header {
+  margin-bottom: 72px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__col {
+  display: flex;
+  justify-content: space-between;
+}
