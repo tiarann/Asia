@@ -1,19 +1,19 @@
-@import url(css/layout/normalize.css);
-@import url(css/layout/base.css);
+@import url(layout/normalize.css);
+@import url(layout/base.css);
 
-@import url(css/blocks/header.css);
-@import url(css/blocks/logo.css);
-@import url(css/blocks/menu.css);
-@import url(css/blocks/contacts.css);
-@import url(css/blocks/hello.css);
-@import url(css/blocks/button.css);
-@import url(css/blocks/offers.css);
-@import url(css/blocks/title.css);
-@import url(css/blocks/news.css);
-@import url(css/blocks/paginator.css);
-@import url(css/blocks/about.css);
-@import url(css/blocks/footer.css);
-@import url(css/blocks/social.css);
+@import url(blocks/header.css);
+@import url(blocks/logo.css);
+@import url(blocks/menu.css);
+@import url(blocks/contacts.css);
+@import url(blocks/hello.css);
+@import url(blocks/button.css);
+@import url(blocks/offers.css);
+@import url(blocks/title.css);
+@import url(blocks/news.css);
+@import url(blocks/paginator.css);
+@import url(blocks/about.css);
+@import url(blocks/footer.css);
+@import url(blocks/social.css);
 
 
 
