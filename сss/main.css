@@ -1,19 +1,18 @@
-/* @import url(/сss/layout/normalize.css);
-@import url(/сss/layout/base.css);
-
-@import url(/сss/blocks/header.css);
-@import url(/сss/blocks/logo.css);
-@import url(/сss/blocks/menu.css);
-@import url(/сss/blocks/contacts.css);
-@import url(/сss/blocks/hello.css);
-@import url(/сss/blocks/button.css);
-@import url(/сss/blocks/offers.css);
-@import url(/сss/blocks/title.css);
-@import url(/сss/blocks/news.css);
-@import url(/сss/blocks/paginator.css);
-@import url(/сss/blocks/about.css);
-@import url(/сss/blocks/footer.css);
-@import url(/сss/blocks/social.css); */
+@import url(/css/layout/normalize.css);
+@import url(/css/layout/base.css);
+@import url(/css/blocks/header.css);
+@import url(/css/blocks/logo.css);
+@import url(/css/blocks/menu.css);
+@import url(/css/blocks/contacts.css);
+@import url(/css/blocks/hello.css);
+@import url(/css/blocks/button.css);
+@import url(/css/blocks/offers.css);
+@import url(/css/blocks/title.css);
+@import url(/css/blocks/news.css);
+@import url(/css/blocks/paginator.css);
+@import url(/css/blocks/about.css);
+@import url(/css/blocks/footer.css);
+@import url(/css/blocks/social.css);
 
 *,
 ::before,
@@ -80,7 +79,7 @@ html, body {
 }
 
 .main-page-wrapper {
-  background: url(imgs/hero.png) center top no-repeat, url(imgs/2.jpg) right bottom 165px no-repeat;
+  background: url(../../imgs/hero.png) center top no-repeat, url(../../imgs/2.jpg) right bottom 165px no-repeat;
 
 }
 
@@ -295,7 +294,7 @@ body {
   width: 21px;
   height: 28px;
   display: inline-block;
-  background-image: url(imgs/flame.png);
+  background-image: url(../../imgs/flame.png);
   margin-left: 6px;
   content: "";
 }
@@ -409,7 +408,7 @@ content: "";
 display: block;
 width: 490px;
 height: 505px;
-background: url(imgs/gates.png) center center / cover no-repeat;
+background: url(../../imgs/gates.png) center center / cover no-repeat;
 }
 
 .about__container:after {
@@ -429,7 +428,7 @@ background: url(imgs/gates.png) center center / cover no-repeat;
   position: absolute;
   top: 96px;
   margin-left: 354px;
-  background: url(imgs/mountains.png);
+  background: url(../../imgs/mountains.png);
 }
 
 .about__text {
@@ -499,7 +498,7 @@ background: url(imgs/gates.png) center center / cover no-repeat;
 
 .top-line {
   min-height: 412px;
-  background: url(imgs/headline1.png) right top no-repeat;
+  background: url(/imgs/headline1.png) right top no-repeat;
   display: flex;
   flex-direction: column;
   padding-bottom: 24px;
