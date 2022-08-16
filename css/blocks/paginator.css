@@ -29,3 +29,8 @@
   color: #F5170E;
   line-height: 32px;
 }
+
+.paginator__number--red-active {
+  background: #F5170E;
+  color: #FFFFFF;
+}

@@ -48,6 +48,8 @@
   .breadcrumbs__item::after {
     content: "/ ";
     color: #9A9A9A;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   
   .breadcrumbs__item:last-child::after {
@@ -110,7 +112,7 @@
   
   .partners__names {
     font-size: 48px;
-    margin-bottom: 99px;
+    margin-bottom: 75px;
   }
   
   .partner {
@@ -125,6 +127,23 @@
   .partner__item:nth-child(4n + 1) {
     margin-left: 0;
   }
+
+  .partner__item:nth-child(5) {
+    margin-bottom: 0px;
+  }
+
+  .partner__item:nth-child(6) {
+    margin-bottom: 0px;
+  }
+  
+  .partner__item:nth-child(7) {
+    margin-bottom: 0px;
+  }
+  
+  .partner__item:nth-child(8) {
+    margin-bottom: 0px;
+  }
+  
   
   .partner__link {
     display: flex;
