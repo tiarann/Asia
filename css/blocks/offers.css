@@ -22,7 +22,6 @@
 }
 .offers__imgs {
   height: 144px;
-  max-width: 360px;
   border-radius: 5px 5px 0px 0px;
 }
 
@@ -33,7 +32,7 @@
 }
 
 .offers__content {
-  padding: 25px 22px 25px;
+  padding: 33px 22px 25px 22px;
 }
 
 .offers__title {
@@ -43,31 +42,31 @@
 .offer__features {
   width: 324px;
   /* display: inline-block; */
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   display: flex;
+  padding-left: 4px;
 }
 .offer__feature {
   line-height: 26px;
-  /* display: inline-block; */
+  display: flex;
+  align-items: center;
 }
 .offer__feature:last-child {
   margin-left: 28px;
 }
 
 .offers__feature-icon {
-  width: 26px;
+  width: 30px;
   height: 26px;
-  margin-right: 15px;
+  margin-right: 14px;
   /* display: inline-block;
   vertical-align: middle; */
 }
 .offers__feature-text {
-  display: inline-block;
   color: #666666;
   font-size: 16px;
-  /* display: inline-block;
-  vertical-align: middle; */
 }
+
 .offers__text {
   font-size: 14px;
   color: #303030;
