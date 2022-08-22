@@ -34,3 +34,8 @@
   background: #F5170E;
   color: #FFFFFF;
 }
+
+.paginator--dark {
+  color: #000000;
+  margin-bottom: 87px;
+}

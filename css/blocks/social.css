@@ -16,4 +16,37 @@
   display: block;
   width: 36px;
   height: 36px;
+  position: relative;
 }
+
+.social__link--tg {
+ background: url(../../imgs/sprites.png) -10px -10px;
+}
+
+.social__link--vk {
+  background: url(../../imgs/sprites.png) -66px -10px;
+}
+
+.social__link--fb {
+  background: url(../../imgs/sprites.png) -122px -10px;
+ }
+
+.social__link--in {
+  background: url(../../imgs/sprites.png) -178px -10px;
+ }
+
+.social__link--tg:hover {
+  background: url(../../imgs/sprites.png) -234px -10px;
+ }
+ 
+.social__link--vk:hover {
+   background: url(../../imgs/sprites.png) -290px -10px;
+  }
+ 
+.social__link--fb:hover {
+   background: url(../../imgs/sprites.png) -346px -10px;
+  }
+ 
+.social__link--in:hover {
+   background: url(../../imgs/sprites.png) -402px -10px;
+  }

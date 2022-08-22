@@ -34,3 +34,6 @@
   right: 0; */
   display: inline-block;
 }
+.footer__container--review {
+padding-top: 47px;
+}
