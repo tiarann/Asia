@@ -74,20 +74,25 @@
 }
 
 .btn {
-  background: #F5170E;
-  display: flex;
+  background: #FFFFFF;
+  border-color: #F5170E;
+  border: 1px solid;
+  color: #F5170E;
+  display: inline-flex;
   font-size: 14px;
   border-radius: 35px;
   text-transform: uppercase;
   padding: 18px 30px;
   font-weight: bold;
-  width: 135px;
-  height: 55px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.btn--light {
-  background: #FFFFFF;
-  border-color: #F5170E;
-  border: 1px solid;
-  color: #F5170E;
+.btn:hover {
+  background: #F5170E;
+  color: #FFFFFF;
+}
+
+.btn--dark {
+  background: #F5170E;
+  color: #FFFFFF;
 }

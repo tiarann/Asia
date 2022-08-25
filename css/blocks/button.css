@@ -9,6 +9,7 @@
   color: #FFFFFF;
   width: 168px;
   height: 55px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .button:hover {
@@ -17,7 +18,7 @@
 }
 
 .button--light {
-  background: #F2F2F2;
+  background: #fff;
   color: #F5170E;
   border: 1px solid #F5170E;
 }

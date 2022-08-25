@@ -11,8 +11,13 @@
 .menu__link {
   color: inherit;
   font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .menu__link:hover {
+  color: #DA0100;
+}
+
+.menu__link--active {
   color: #DA0100;
 }

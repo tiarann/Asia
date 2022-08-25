@@ -66,7 +66,7 @@
   }
   
 .maincontent-services {
-  background: #F2F2F2;
+  background:  #FFFFFF;
   color: #303030;
   padding: 98px 0px 89px 0px;
   }
@@ -130,11 +130,19 @@
   width: 230px;
   height: 50px;
   align-items: center;
+  filter: grayscale(1);
+  transition: filter 0.3s;
+  }
+
+  .partner__link:hover {
+    filter: grayscale(0);
   }
 
 .partner__item:nth-child(4n + 1) .partner__link {
   justify-content: flex-start; 
 }
+
+/* Приветственная */
 
 .welcome {
   display: flex;
@@ -157,10 +165,10 @@
 .welcome__pic-text {
   background: url(../imgs/shades.png) center center / cover no-repeat;
   width: 591px;
-  height: 248px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .logo__welcome {
@@ -211,7 +219,7 @@
 }
 
 .maincontent-reviews {
-  background: #F2F2F2;
+  background: #FFFFFF;
   padding-top: 100px;
 }
 
@@ -253,6 +261,12 @@
   font-size: 24px;
   line-height: 42px;
   color: #1A1B1E;
+  transition: text-decoration-line 0.3s, color 0.3s;
+}
+
+.review__user-name:hover {
+  text-decoration-line: underline;
+  color: #2E77A4
 }
 
 .review__user-name--blue {
@@ -361,10 +375,12 @@
   font-size: 18px;
   line-height: 25px;
   color: #1A1B1E;
+  border: 1px solid transparent;
 }
 
-.form__input:active {
-  border: 1px solid #F5170E;
+.form__input:focus {
+  outline: none;
+  border-color: #F5170E;
 }
 
 .form__input::placeholder {

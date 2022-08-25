@@ -22,12 +22,24 @@
   position: relative;
   font-weight: 700;
   line-height: 32px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.paginator__number:hover {
+  background: #FFFFFF;
+  color: #F5170E;
+  line-height: 32px;
 }
 
 .paginator__number--active {
   background: #FFFFFF;
   color: #F5170E;
   line-height: 32px;
+}
+
+.red-paginator:hover {
+  background: #F5170E;
+  color: #FFFFFF;
 }
 
 .paginator__number--red-active {
