@@ -322,7 +322,7 @@
 
 .banner {
   background: url(../imgs/banner.png);
-  height: 363px;
+  min-height: 363px;
   display: flex;
   flex-direction: column;
   justify-content: center;

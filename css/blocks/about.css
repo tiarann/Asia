@@ -22,13 +22,12 @@ background: url(../../imgs/gates.png) center center / cover no-repeat;
 
 .about__content { 
   width: 785px;
-  height: 455px;
   padding: 70px 80px;
   z-index: 1;
   position: absolute;
   top: 96px;
   margin-left: 354px;
-  background: url(../../imgs/mountains.png);
+  background: url(../../imgs/mountains.png) center center / cover no-repeat;
 }
 
 .about__text {
