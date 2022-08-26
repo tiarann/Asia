@@ -1,0 +1,39 @@
+.button {
+  background: #F5170E;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  font-weight: bold;
+  color: #FFFFFF;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background: #DA0100;
+  color: #FFFFFF;
+}
+
+.button--light {
+  background: #fff;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+}
+
+.button--welcome {
+  padding: 18px 58px;
+}
+
+.button--dark {
+  background: #8E8E8E;
+}
+
+.button--dark:hover {
+  background: #2B2B2B;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
